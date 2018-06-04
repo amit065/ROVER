@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TESTS", "TESTS", "{4DD98208-9415-43E9-B2AB-B4046A198DD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CORE", "CORE", "{CEDAC2E1-4E8E-443E-95E0-98654070D88F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon_Rover.Core", "Moon_Rover.Core\Moon_Rover.Core.csproj", "{567AF691-D81D-4952-9C27-8EE282687D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon_Rover_Direction.test", "Moon_Rover_Direction.test\Moon_Rover_Direction.test.csproj", "{60B60E73-F47A-42AD-97CB-32EA0224DD65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{567AF691-D81D-4952-9C27-8EE282687D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567AF691-D81D-4952-9C27-8EE282687D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567AF691-D81D-4952-9C27-8EE282687D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567AF691-D81D-4952-9C27-8EE282687D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B60E73-F47A-42AD-97CB-32EA0224DD65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B60E73-F47A-42AD-97CB-32EA0224DD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B60E73-F47A-42AD-97CB-32EA0224DD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B60E73-F47A-42AD-97CB-32EA0224DD65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{567AF691-D81D-4952-9C27-8EE282687D3B} = {CEDAC2E1-4E8E-443E-95E0-98654070D88F}
+		{60B60E73-F47A-42AD-97CB-32EA0224DD65} = {4DD98208-9415-43E9-B2AB-B4046A198DD4}
+	EndGlobalSection
+EndGlobal
